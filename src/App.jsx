@@ -12,6 +12,7 @@ const App = () => {
 						icon={card.icon}
 						title={card.title}
 						text={card.text}
+						key={card.id}
 					/>
 				);
 			})}
